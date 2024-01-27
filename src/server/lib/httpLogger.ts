@@ -3,8 +3,7 @@ import pino from 'pino';
 import _ from 'lodash';
 
 import config from '../../config';
-
-import logger from './logger';
+import logger from '../../lib/logger';
 
 import type { Options } from 'pino-http';
 

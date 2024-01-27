@@ -13,9 +13,11 @@ dotenv.config({ path: path.resolve(process.cwd(), '.env') });
 dotenv.config({ path: path.resolve(process.cwd(), `configs/${NODE_ENV}.env`) });
 
 import { http } from './http';
+import { pg } from './pg';
 import { logger } from './logger';
 
 export default {
 	http,
+	pg,
 	logger,
 };
