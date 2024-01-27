@@ -3,11 +3,11 @@ import type { IAppData } from '../../interfaces/app-data';
 
 export function mainController(req: Request, res: Response) {
 	const appData: IAppData = {
-		title: 'title',
+		reqId: String(req.id),
 	};
 
-	res.render('index', {
-		title: 'title',
+	res.render('main', {
+		title: 'Title',
 		data: appData,
 	});
 }

@@ -1,7 +1,9 @@
+import { getEnvString } from './utils';
+
 export interface IConfigHttp {
 	port: number;
 }
 
 export const http: IConfigHttp = {
-	port: process.env.PORT ? parseInt(process.env.PORT, 10) : 80,
+	port: parseInt(getEnvString('HTTP_PORT'), 10),
 };
