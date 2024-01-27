@@ -1,0 +1,4 @@
+.tmp
+build
+pnpm-lock.yaml
+src/lib/database/migrations/*

@@ -1,3 +1,3 @@
 export interface IAppData {
-    title: string;
+	title: string;
 }

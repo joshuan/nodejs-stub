@@ -1,4 +1,5 @@
 import express from 'express';
+
 import { httpLoggerMiddleware } from './middlewares/httpLogger';
 import { createRequestIdMiddleware } from './middlewares/reqId';
 import { mainController } from './controllers/main';
