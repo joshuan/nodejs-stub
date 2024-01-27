@@ -1,0 +1,13 @@
+{
+  "watch": [
+    "src/server",
+    "src/lib",
+    "src/interfaces",
+    "configs",
+    "views",
+    "static",
+    ".env"
+  ],
+  "ext": "ts,tsx,html,json,sql",
+  "exec": "ts-node src/server/index.ts"
+}

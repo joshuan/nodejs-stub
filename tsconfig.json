@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Language and Environment */
+    "target": "ES2022",
+    "lib": ["ES2022", "ES2022.Error", "DOM"],
+    "jsx": "react",
+
+    /* Modules */
+    "module": "commonjs",
+    "moduleResolution": "nodenext",
+
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+
+    /* Type Checking */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "strictPropertyInitialization": false,
+
+    /* Completeness */
+    "skipLibCheck": true,
+
+    /* typeorm */
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+
+    "types": ["node"]
+  }
+}
